@@ -1,6 +1,6 @@
-package test.easy;
+package test.medium;
 
-import easy.ContainerWithMostWater;
+import meidum.ContainerWithMostWater;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
