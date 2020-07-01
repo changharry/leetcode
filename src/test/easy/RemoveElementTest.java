@@ -19,5 +19,6 @@ class RemoveElementTest {
     void removeElement() {
         assertEquals(obj.removeElement(new int[]{3,2,2,3}, 3), 2);
         assertEquals(obj.removeElement(new int[]{0,1,2,2,3,0,4,2}, 2), 5);
+        assertEquals(obj.removeElement(new int[]{0,1,2,2,3,0,4,2}, 0), 6);
     }
 }
