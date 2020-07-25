@@ -22,6 +22,7 @@ class IntegerToRomanTest {
         assertEquals(obj.intToRoman(6), "VI");
         assertEquals(obj.intToRoman(9), "IX");
         assertEquals(obj.intToRoman(58), "LVIII");
+        assertEquals(obj.intToRoman(2020), "MMXX");
         assertEquals(obj.intToRoman(1994), "MCMXCIV");
     }
 }
