@@ -1,6 +1,6 @@
 package meidum;
 
-public class ContainerWithMostWater {
+public class    ContainerWithMostWater {
     public int maxArea(int[] height) {
         int maxarea = 0;
         for (int i = 0; i < height.length; i++)
