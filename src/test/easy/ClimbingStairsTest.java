@@ -20,4 +20,11 @@ class ClimbingStairsTest {
         assertEquals(obj.climbStairs(3), 3);
         assertEquals(obj.climbStairs(2), 2);
     }
+
+    @Test
+    void climbStairs2() {
+        //tests for method 2
+        assertEquals(obj.climbStairs2(3), 3);
+        assertEquals(obj.climbStairs2(2), 2);
+    }
 }
