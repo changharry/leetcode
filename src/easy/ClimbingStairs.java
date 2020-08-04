@@ -2,6 +2,7 @@ package easy;
 
 public class ClimbingStairs {
 
+    // time out on leetcode
     public int climbStairs(int n) {
         if (n < 2) {
             return 1;
