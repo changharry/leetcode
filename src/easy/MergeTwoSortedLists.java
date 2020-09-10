@@ -10,7 +10,7 @@ package easy;
       @Override
       public String toString() {
           return "ListNode{" +
-                  "val=" + val +
+                  "value=" + val +
                   ", next=" + next +
                   '}';
       }
@@ -37,5 +37,8 @@ public class MergeTwoSortedLists {
             curr.next = l2;
         }
         return node.next;
+    }
+    public ListNode getObj(int i, ListNode l) {
+        return new ListNode(i, l);
     }
 }
